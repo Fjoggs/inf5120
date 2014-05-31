@@ -103,13 +103,70 @@ Service Innovation and Service Design
 
 \begin_deeper
 \begin_layout Itemize
+Service design definition: 
+\begin_inset Quotes eld
+\end_inset
+
+Design for experiences that happen over time and ascross different touch-points.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 AT ONE
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Actors
+\end_layout
+
+\begin_layout Itemize
+Touchpoints
+\end_layout
+
+\begin_layout Itemize
+Offering
+\end_layout
+
+\begin_layout Itemize
+Need
+\end_layout
+
+\begin_layout Itemize
+Experience
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Smaply
 \end_layout
 
+\begin_layout Itemize
+Self-centered vs User-centered design
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Expressed needs
+\series default
+ are defined as the needs a customer is aware of, and therefore, can express.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Latent needs
+\series default
+ are needs that the customer is unaware of, and which are not in her/his
+ consciousness.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 User experience and Touchpoints/UI Design
