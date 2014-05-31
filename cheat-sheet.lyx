@@ -1,0 +1,759 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Terms
+\end_layout
+
+\begin_layout Itemize
+UML
+\end_layout
+
+\begin_layout Itemize
+BPMN - Business Process Modeling Notation
+\end_layout
+
+\begin_layout Itemize
+DSL - Domain Specific Language
+\end_layout
+
+\begin_layout Itemize
+Business Model Canvas & Business Model Innovation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Value Networks
+\end_layout
+
+\begin_layout Itemize
+Strategyzer tool
+\end_layout
+
+\begin_layout Itemize
+BPMN modelling
+\end_layout
+
+\begin_layout Itemize
+MagicDraw EA tool
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Service Innovation and Service Design
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+AT ONE
+\end_layout
+
+\begin_layout Itemize
+Smaply
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+User experience and Touchpoints/UI Design
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Balsamiq
+\end_layout
+
+\begin_layout Itemize
+WebRatio
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UML and Req.Modeling
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Agile User stories vs Use Cases 2.0
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ServiceML
+\end_layout
+
+\begin_layout Itemize
+Requirements Modeling
+\end_layout
+
+\begin_layout Itemize
+Goal Modeling
+\end_layout
+
+\begin_layout Itemize
+BMM - Business Motivation Model
+\end_layout
+
+\begin_layout Itemize
+Non Functional requirements
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Requirements Engineering
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UI Models
+\end_layout
+
+\begin_layout Itemize
+WebML
+\end_layout
+
+\begin_layout Itemize
+IFML
+\end_layout
+
+\begin_layout Itemize
+Process models
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+WebRatio
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Model driven engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metamodels
+\end_layout
+
+\begin_layout Itemize
+DSL - Domain Specific Language
+\end_layout
+
+\begin_layout Itemize
+UML Profiles
+\end_layout
+
+\begin_layout Itemize
+Transformation engineering
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Method engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SW Process frameworks
+\end_layout
+
+\begin_layout Itemize
+SPEM - Software Process Engineering Metamodel
+\end_layout
+
+\begin_layout Itemize
+EPF
+\end_layout
+
+\begin_layout Itemize
+ISO 24744
+\end_layout
+
+\begin_layout Itemize
+FACESEM/Essence
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+MDE and DSL in practice
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ThingML
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+System Architecture and Information/ontology modeling
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+UML
+\end_layout
+
+\begin_layout Itemize
+ISO 19103
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UML Service Modeling
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SoaML - SOA Modeling Language
+\end_layout
+
+\begin_layout Itemize
+UML 2.0 Service composition
+\end_layout
+
+\begin_layout Itemize
+MagicDraw
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Platform models for the Cloud
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CloudML
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+System realisation models
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+MagicDraw
+\end_layout
+
+\begin_layout Itemize
+JEE
+\end_layout
+
+\begin_layout Itemize
+MDA - Model Driven Architecture
+\end_layout
+
+\begin_layout Itemize
+ADM
+\end_layout
+
+\begin_layout Itemize
+SBVR
+\end_layout
+
+\begin_layout Itemize
+MDI
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Tools
+\end_layout
+
+\begin_layout Itemize
+Enterprise Architecture
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No Magic - Cameo Enterprise Architecture MagicDraw
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Business Architecture and Requirements Engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business Model Canvas - Strategyzer.com
+\end_layout
+
+\begin_layout Itemize
+Service AT ONE method/workshop
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Smaply.com for Service Design
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Value Networks/VDML (Value Delivery Modeling Language)
+\end_layout
+
+\begin_layout Itemize
+Balsamiq
+\end_layout
+
+\begin_layout Itemize
+WebRatio
+\end_layout
+
+\begin_layout Itemize
+Agile User stories vs Use Cases - Agile JIRA
+\end_layout
+
+\begin_layout Itemize
+Business - SoaML
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Model driven engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Model Driven Software Engineering in practice (Brambilla & al)
+\end_layout
+
+\begin_layout Itemize
+ESSENCE book
+\end_layout
+
+\begin_layout Itemize
+Eclipse EMF & Graphiti
+\end_layout
+
+\begin_layout Itemize
+Model driven engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Transformation technologies (M2M, M2T)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+MDE and DSL in practice
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ThingML
+\end_layout
+
+\begin_layout Itemize
+CloudML
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+System Architecture and Service Engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SoaML
+\end_layout
+
+\begin_layout Itemize
+UML 2.0 Service Composition
+\end_layout
+
+\begin_layout Itemize
+ISO 19119 MagicDraw
+\end_layout
+
+\begin_layout Itemize
+System Architecture and Information/Ontology modeling
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+UML
+\end_layout
+
+\begin_layout Itemize
+ISO 19103
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UI Models
+\end_layout
+
+\begin_layout Itemize
+WebML
+\end_layout
+
+\begin_layout Itemize
+IFML
+\end_layout
+
+\begin_layout Itemize
+Process models
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+WebRatio
+\end_layout
+
+\begin_layout Itemize
+Cordys Cloud
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+System realisation models
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+WebRatio
+\end_layout
+
+\begin_layout Itemize
+JEE
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+MDA-ADM
+\end_layout
+
+\begin_layout Itemize
+SBVR
+\end_layout
+
+\begin_layout Itemize
+MDI
+\end_layout
+
+\begin_layout Itemize
+Platform models for the Cloud
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CloudML
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Exams
+\end_layout
+
+\begin_layout Subsection
+2013
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business Model Canvas
+\end_layout
+
+\begin_layout Itemize
+AT-ONE 
+\series bold
+Actors
+\series default
+ model with a Value Network Model
+\end_layout
+
+\begin_layout Itemize
+AT-ONE 
+\series bold
+Touchpoint
+\series default
+ model with a Service Journey Model
+\end_layout
+
+\begin_layout Itemize
+AT-ONE 
+\series bold
+Offerings
+\series default
+ model with a Service Contract Model
+\end_layout
+
+\begin_layout Itemize
+AT-ONE 
+\series bold
+Needs 
+\series default
+model with a Goal Model
+\end_layout
+
+\begin_layout Itemize
+User Stories, Use Case Model, Use Case description
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Information model with UML
+\end_layout
+
+\begin_layout Itemize
+Process model with BPMN
+\end_layout
+
+\begin_layout Itemize
+System architecture with a SoaML model
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metamodel for CLoudML, described as an EMF compliant UML model
+\end_layout
+
+\begin_layout Itemize
+Describe creating a graphical editor CloudML using EMF with Eugenia/GMF
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+2012
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business Process Model using BPMN
+\end_layout
+
+\begin_layout Itemize
+Value Network Model using Value Networks
+\end_layout
+
+\begin_layout Itemize
+Requirements Model using UML Use Case approach
+\end_layout
+
+\begin_layout Itemize
+Service Model using SoaML
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metamodel for Value Network Models
+\end_layout
+
+\begin_layout Itemize
+Transformation/mapping rules
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Discussion around Model Based System development vs Agile development
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+2011
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business Model with BPMN
+\end_layout
+
+\begin_layout Itemize
+Requirements model with relevsant Use Cases
+\end_layout
+
+\begin_layout Itemize
+Service Model with SoaML
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metamodel for SoaML model created in previous task
+\end_layout
+
+\begin_layout Itemize
+Transformation/mapping rules
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ADM to migrate an already existing implementation to Cloud-based technology
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+2010
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SoaML models for Service Architecture/Collaboration and Component/Compostite
+\end_layout
+
+\begin_layout Itemize
+Describe behaviour for the SoaML model of the illustrated process using
+ BPMN
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simplified Metamodel for the core part of BPMN in the previous question
+\end_layout
+
+\begin_layout Itemize
+BPEL execution engine (Business Process Execution Language)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Transformation rules with MOFScript (MOF2Text)
+\end_layout
+
+\begin_layout Itemize
+Mapping from BPMN to BPEL
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Semantic web service technologies and principles from Model Driven Interopabilit
+y
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
