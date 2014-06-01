@@ -1,60 +1,41 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 1.6.10 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
 \begin_document
 \begin_header
 \textclass article
 \use_default_options true
-\maintain_unincluded_children false
 \language english
-\language_package default
 \inputencoding auto
-\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
-\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
-\output_sync 0
-\bibtex_command default
-\index_command default
 \paperfontsize default
 \use_hyperref false
 \papersize default
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
-\use_mhchem 1
-\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
-\use_indices false
 \paperorientation portrait
-\suppress_date false
-\use_refstyle 1
-\index Index
-\shortcut idx
-\color #008000
-\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation default
+\defskip medskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\html_math_output 0
-\html_css_as_file 0
-\html_be_strict false
+\author "" 
 \end_header
 
 \begin_body
@@ -537,6 +518,440 @@ CloudML
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+BPMN
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/786px-BPMN_plain_event_types.svg.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/BPMN_Activity_Types.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/BPMN_gateway_types.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/Different_Types_of_BPMN_connections.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Flow objects are the main describing elements within BPMN, and consist of
+ three core elements: events, activities, and gateways.
+\end_layout
+
+\begin_layout Itemize
+Event 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An Event is represented with a circle and denotes something that happens
+ (compared with an activity, which is something that is done).
+ Icons within the circle denote the type of event (e.g., an envelope representing
+ a message, or a clock representing time).
+ Events are also classified as Catching (for example, if catching an incoming
+ message starts a process) or Throwing (such as throwing a completion message
+ when a process ends).
+\end_layout
+
+\begin_layout Itemize
+Start event Acts as a process trigger; indicated by a single narrow border,
+ and can only be Catch, so is shown with an open (outline) icon.
+ 
+\end_layout
+
+\begin_layout Itemize
+Intermediate event Represents something that happens between the start and
+ end events; is indicated by a double border, and can Throw or Catch (using
+ solid or open icons as appropriate).
+ For example, a task could flow to an event that throws a message across
+ to another pool, where a subsequent event waits to catch the response before
+ continuing.
+ 
+\end_layout
+
+\begin_layout Itemize
+End event Represents the result of a process; indicated by a single thick
+ or bold border, and can only Throw, so is shown with a solid icon.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Activity An activity is represented with a rounded-corner rectangle and
+ describes the kind of work which must be done.
+\end_layout
+
+\begin_layout Itemize
+Task 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A task represents a single unit of work that is not or cannot be broken
+ down to a further level of business process detail without diagramming
+ the steps in a procedure (which is not the purpose of BPMN) 
+\end_layout
+
+\begin_layout Itemize
+Sub-process 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Used to hide or reveal additional levels of business process detail.
+ When collapsed, a sub-process is indicated by a plus sign against the bottom
+ line of the rectangle; when expanded, the rounded rectangle expands to
+ show all flow objects, connecting objects, and artifacts.
+ Has its own self-contained start and end events; sequence flows from the
+ parent process must not cross the boundary.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Transaction 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A form of sub-process in which all contained activities must be treated
+ as a whole; i.e., they must all be completed to meet an objective, and if
+ any one of them fails, they must all be compensated (undone).
+ Transactions are differentiated from expanded sub-processes by being surrounded
+ by a double border.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Call Activity 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A point in the process where a global process or a global Task is reused.
+ A call activity is differentiated from other activity types by a bolded
+ border around the activity area.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Gateway 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A gateway is represented with a diamond shape and determines forking and
+ merging of paths, depending on the conditions expressed.
+\end_layout
+
+\begin_layout Itemize
+Exclusive 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Used to create alternative flows in a process because only one of the paths
+ can be taken, it is called exclusive 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Event Based
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The condition determining the path of a process is based on an evaluated
+ event.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Parallel 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Used to create parallel paths without evaluating any conditions.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Inclusive 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Used to create alternative flows where all paths are evaluated.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exclusive 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Event Based An event is being evaluated to determine which of mutually exclusive
+ paths will be taken 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Complex 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Used to model complex synchronization behavior 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Parallel Event Based 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Two parallel process are started based on an event but there is no evaluation
+ of the event
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Connections
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Flow objects are connected to each other using Connecting objects, which
+ are of three types: sequences, messages, and associations.
+\end_layout
+
+\begin_layout Itemize
+Sequence Flow
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A Sequence Flow is represented with a solid line and arrowhead, and shows
+ in which order the activities are performed.
+ The sequence flow may also have a symbol at its start, a small diamond
+ indicates one of a number of conditional flows from an activity, while
+ a diagonal slash indicates the default flow from a decision or activity
+ with conditional flows.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Message Flow
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A Message Flow is represented with a dashed line, an open circle at the
+ start, and an open arrowhead at the end.
+ It tells us what messages flow across organizational boundaries (i.e., between
+ pools).
+ A message flow can never be used to connect activities or events within
+ the same pool.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Association
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An Association is represented with a dotted line.
+ It is used to associate an Artifact or text to a Flow Object, and can indicate
+ some directionality using an open arrowhead (toward the artifact to represent
+ a result, from the artifact to represent an input, and both to indicate
+ it is read and updated).
+ No directionality is used when the Artifact or text is associated with
+ a sequence or message flow (as that flow already shows the direction).
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Business Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/bizmodel.jpg
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Use Case
+\end_layout
+
+\begin_layout Paragraph
+User stories
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+I as the 
+\begin_inset Quotes eld
+\end_inset
+
+actor
+\begin_inset Quotes erd
+\end_inset
+
+ need the
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Use case specification
+\end_layout
+
+\begin_layout Itemize
+Name
+\end_layout
+
+\begin_layout Itemize
+ID
+\end_layout
+
+\begin_layout Itemize
+Revision
+\end_layout
+
+\begin_layout Itemize
+Diagram
+\end_layout
+
+\begin_layout Itemize
+Status
+\end_layout
+
+\begin_layout Itemize
+Goal
+\end_layout
+
+\begin_layout Itemize
+Summary
+\end_layout
+
+\begin_layout Itemize
+Actors
+\end_layout
+
+\begin_layout Itemize
+Primary Actor
+\end_layout
+
+\begin_layout Itemize
+Pre-conditions
+\end_layout
+
+\begin_layout Itemize
+Triggers
+\end_layout
+
+\begin_layout Itemize
+Main success scenario
+\end_layout
+
+\begin_layout Itemize
+Extensions
+\end_layout
+
+\begin_layout Itemize
+Alternative paths
+\end_layout
+
+\begin_layout Itemize
+Post conditions
+\end_layout
+
+\begin_layout Section
+SoaML & Service Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/ServiceModel.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/58-complete-services-archtiecture-diagram.png
+	scale 300
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Transformation/Mapping rules MOFscript
+\end_layout
+
+\begin_layout Standard
+See example
+\end_layout
+
 \begin_layout Section
 Exams
 \end_layout
@@ -554,11 +969,11 @@ Task 1
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Business Model Canvas
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 AT-ONE 
 \series bold
 Actors
@@ -566,7 +981,7 @@ Actors
  model with a Value Network Model
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 AT-ONE 
 \series bold
 Touchpoint
@@ -574,7 +989,7 @@ Touchpoint
  model with a Service Journey Model
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 AT-ONE 
 \series bold
 Offerings
@@ -582,7 +997,7 @@ Offerings
  model with a Service Contract Model
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 AT-ONE 
 \series bold
 Needs 
@@ -590,7 +1005,7 @@ Needs
 model with a Goal Model
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 User Stories, Use Case Model, Use Case description
 \end_layout
 
@@ -600,15 +1015,15 @@ Task 2
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Information model with UML
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Process model with BPMN
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 System architecture with a SoaML model
 \end_layout
 
@@ -618,11 +1033,11 @@ Task 3
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Metamodel for CLoudML, described as an EMF compliant UML model
+\begin_layout Enumerate
+Metamodel for CloudML, described as an EMF compliant UML model
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Describe creating a graphical editor CloudML using EMF with Eugenia/GMF
 \end_layout
 
@@ -640,19 +1055,19 @@ Task 1
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Business Process Model using BPMN
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Value Network Model using Value Networks
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Requirements Model using UML Use Case approach
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Service Model using SoaML
 \end_layout
 
@@ -662,11 +1077,11 @@ Task 2
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Metamodel for Value Network Models
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Transformation/mapping rules
 \end_layout
 
@@ -676,7 +1091,7 @@ Task 3
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Discussion around Model Based System development vs Agile development
 \end_layout
 
@@ -694,15 +1109,15 @@ Task 1
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Business Model with BPMN
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Requirements model with relevsant Use Cases
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Service Model with SoaML
 \end_layout
 
@@ -712,11 +1127,11 @@ Task 2
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Metamodel for SoaML model created in previous task
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Transformation/mapping rules
 \end_layout
 
@@ -726,7 +1141,7 @@ Task 3
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 ADM to migrate an already existing implementation to Cloud-based technology
 \end_layout
 
@@ -744,11 +1159,11 @@ Task 1
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 SoaML models for Service Architecture/Collaboration and Component/Compostite
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Describe behaviour for the SoaML model of the illustrated process using
  BPMN
 \end_layout
@@ -759,11 +1174,11 @@ Task 2
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Simplified Metamodel for the core part of BPMN in the previous question
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 BPEL execution engine (Business Process Execution Language)
 \end_layout
 
@@ -783,9 +1198,115 @@ Task 3
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Semantic web service technologies and principles from Model Driven Interopabilit
 y
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Exam 2009
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+BPMN model
+\end_layout
+
+\begin_layout Enumerate
+Create an editor supporting editing of BPMN diagrams, using Eclipse based
+ tools
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SoaML architectural model, as a service oriented architecture based on process
+ model in task 1
+\end_layout
+
+\begin_layout Enumerate
+Metalmodel for SCA, Service Component Architecture
+\end_layout
+
+\begin_layout Enumerate
+Transformation rules with MOFscript (MOF2Text)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Model Driven Interopability to support any semantic mismatches between the
+ two systems when they need to interoperate with each other
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Exam 2008
+\end_layout
+
+\begin_layout Subsubsection
+Overview of subjects
+\end_layout
+
+\begin_layout Itemize
+Task 1
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+BPMN model for ineractions between Customer, Supplier and Shipper
+\end_layout
+
+\begin_layout Enumerate
+UPMS architectural model.
+ Discuss relation between BPMN and UPMS model
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 2
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Transformation rules with ATL or QVT to define a mapping+transformation
+ from BPMN to UPMS light.
+ Discuss how this will be dependnt on different approaches and levels of
+ details for the BPMN models, and how you can define modelling guidelines
+ to support this.
+ (TIP: use modelling with pools to reflect message flow)
+\end_layout
+
+\begin_layout Enumerate
+Transformation rules with ATL/MOFscript (MOF2Text) from UPMS light to WSDL.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Task 3
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Discuss UML profile vs explicit metamodel for modelling and development
+ support
 \end_layout
 
 \end_deeper
