@@ -59,6 +59,15 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Terms
 \end_layout
@@ -85,15 +94,7 @@ Value Networks
 \end_layout
 
 \begin_layout Itemize
-Strategyzer tool
-\end_layout
-
-\begin_layout Itemize
 BPMN modelling
-\end_layout
-
-\begin_layout Itemize
-MagicDraw EA tool
 \end_layout
 
 \end_deeper
@@ -140,10 +141,6 @@ Experience
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Smaply
-\end_layout
-
 \begin_layout Itemize
 Self-centered vs User-centered design
 \end_layout
@@ -210,16 +207,6 @@ BMM - Business Motivation Model
 
 \begin_layout Itemize
 Non Functional requirements
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Requirements Engineering
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-UI Models
 \end_layout
 
 \begin_layout Itemize
@@ -325,10 +312,6 @@ SoaML - SOA Modeling Language
 UML 2.0 Service composition
 \end_layout
 
-\begin_layout Itemize
-MagicDraw
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Platform models for the Cloud
@@ -345,10 +328,6 @@ System realisation models
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-MagicDraw
-\end_layout
-
 \begin_layout Itemize
 JEE
 \end_layout
@@ -397,12 +376,10 @@ Business Model Canvas - Strategyzer.com
 Service AT ONE method/workshop
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Smaply.com for Service Design
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Value Networks/VDML (Value Delivery Modeling Language)
 \end_layout
@@ -565,7 +542,7 @@ Exams
 \end_layout
 
 \begin_layout Subsection
-2013
+Exam 2013
 \end_layout
 
 \begin_layout Subsubsection
@@ -651,7 +628,7 @@ Describe creating a graphical editor CloudML using EMF with Eugenia/GMF
 
 \end_deeper
 \begin_layout Subsection
-2012
+Exam 2012
 \end_layout
 
 \begin_layout Subsubsection
@@ -705,7 +682,7 @@ Discussion around Model Based System development vs Agile development
 
 \end_deeper
 \begin_layout Subsection
-2011
+Exam 2011
 \end_layout
 
 \begin_layout Subsubsection
@@ -755,7 +732,7 @@ ADM to migrate an already existing implementation to Cloud-based technology
 
 \end_deeper
 \begin_layout Subsection
-2010
+Exam 2010
 \end_layout
 
 \begin_layout Subsubsection
